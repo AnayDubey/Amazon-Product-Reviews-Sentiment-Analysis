@@ -11,11 +11,8 @@ Requirements
 Python 3.7+
 Libraries: Install the following Python libraries
 bash
-Copy code
 pip install pandas nltk matplotlib wordcloud
 If you are using VADER for the first time, download the VADER lexicon as follows:
-python
-Copy code
 import nltk
 nltk.download('vader_lexicon')
 File Structure
@@ -24,20 +21,14 @@ amazon.ipynb: Jupyter Notebook file containing the project code.
 README.md: Project documentation.
 Setup and Usage
 Clone the repository
-
 bash
-Copy code
 git clone https://github.com/your-username/amazon-sentiment-analysis.git
 Navigate to the directory
-
 bash
-Copy code
 cd amazon-sentiment-analysis
 Open the Jupyter Notebook
-
 Run Jupyter Notebook:
 bash
-Copy code
 jupyter notebook amazon.ipynb
 Follow the cells step-by-step to run the code.
 Project Flow in Jupyter Notebook
@@ -52,8 +43,3 @@ Pie Chart: Displays the proportions of Positive, Negative, and Neutral reviews.
 Word Cloud (Optional): Visualizes frequently used words in the reviews.
 Results
 The analysis provides insight into overall customer sentiment, helping to understand customer feedback trends. Positive, negative, and neutral sentiments are summarized and visualized, offering potential applications for business insights and customer feedback analysis.
-
-Future Enhancements
-Incorporate additional sentiment analysis models to compare results.
-Extend visualization to other review categories or products.
-Implement real-time analysis for ongoing reviews.
